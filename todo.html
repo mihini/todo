@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Labb 2 Todo</title>
+
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href = "style.css">
+	</head>
+	
+	<body class="container grey lighten-5">
+<!--		Titel på Task-->
+		<h1 class="indigo-text  text-darken-3"> Just Do It </h1>
+	
+<!--	div för inputen med knappar-->
+	<div class=" row input-field col s12">
+<!--	<form class="col s12">-->
+		<input id="input" class=" col s12 l10" type="text" placeholder="Things to do">
+			<div class = "col s1 push-s10 push-m11 push-l1 ">
+				<button id ="add" class=" btn-floating btn-large indigo darken-3"><i class="material-icons">add</i>
+				</button>
+			</div>
+<!--		</form>-->
+	</div>
+<!--	Lista för task-->
+		<ul id ="list">
+			
+		</ul>
+		
+<!--		Titel på Done lista-->
+		<h1 class="indigo-text  text-darken-3"> Things that is done </h1>
+		
+		<script src="toDo1.js"></script>
+		
+	</body>
+</html>
